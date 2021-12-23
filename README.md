@@ -1,5 +1,11 @@
 # WPN Keyboard Emulator
 
+## Hardware
+
+**Controllino MINI**
+
+https://www.controllino.com/product/controllino-mini/
+
 ## Setup
 
 **Install VSCode**
