@@ -1,3 +1,7 @@
+/* Author: Noa Sendlhofer - noa.sendlhofer@wpn.ch
+ * Desc: Button class header
+ */
+
 #ifndef KEYBOARD_EMULATOR_BUTTON_
 #define KEYBOARD_EMULATOR_BUTTON_
 

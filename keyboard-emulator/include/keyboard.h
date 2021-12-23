@@ -1,3 +1,7 @@
+/* Author: Noa Sendlhofer - noa.sendlhofer@wpn.ch
+ * Desc: Keyboard class header
+ */
+
 #ifndef KEYBOARD_EMULATOR_KEYBOARD_
 #define KEYBOARD_EMULATOR_KEYBOARD_
 

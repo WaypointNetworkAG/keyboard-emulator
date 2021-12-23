@@ -1,3 +1,7 @@
+/* Author: Noa Sendlhofer - noa.sendlhofer@wpn.ch
+ * Desc: Keyboard class implementation
+ */
+
 #include "keyboard.h"
 
 Keyboard::Keyboard()

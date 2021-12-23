@@ -1,3 +1,7 @@
+/* Author: Noa Sendlhofer - noa.sendlhofer@wpn.ch
+ * Desc: Button class implementation
+ */
+
 #include "button.h"
 
 Button::Button(std::shared_ptr<Keyboard>& keyboard, bool& g_status_flag, PORT port, KEY key)

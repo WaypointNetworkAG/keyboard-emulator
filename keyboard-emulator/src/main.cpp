@@ -1,3 +1,7 @@
+/* Author: Noa Sendlhofer - noa.sendlhofer@wpn.ch
+ * Desc: Controllino code main file
+ */
+
 #include "Controllino.h"
 #include "button.h"
 

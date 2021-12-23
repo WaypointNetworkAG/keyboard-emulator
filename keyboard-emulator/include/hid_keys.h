@@ -1,9 +1,9 @@
-#ifndef KEYBOARD_EMULATOR_HID_KEYS_
-#define KEYBOARD_EMULATOR_HID_KEYS_
-
 /* Keyboard usage values, see usb.org's HID-usage-tables document, chapter
  * 10 Keyboard/Keypad Page for more codes.
  */
+
+#ifndef KEYBOARD_EMULATOR_HID_KEYS_
+#define KEYBOARD_EMULATOR_HID_KEYS_
 
 #define MOD_CONTROL_LEFT    (1<<0)
 #define MOD_SHIFT_LEFT      (1<<1)
