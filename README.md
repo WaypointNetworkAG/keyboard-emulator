@@ -15,7 +15,7 @@ https://platformio.org/install/ide?install=vscode
 - Download repository as zip file.
 - PIO Home >> Open Project >> keyboard-emulator folder.
 
-**Install a DFU Programmer**
+**Install a DFU programmer**
 
 Mac: (recommended)
 
@@ -29,9 +29,9 @@ Linux:
 sudo apt-get install dfu-programmer
 ```
 
-## Install Software on new device
+## Install the software on a new device
 
-Unlike other Arduino boards, the Controllino PLCs are generally not able to be recognized as a keyboard. Because of that we have to flash a custom bootloader onto the Atmega16u2 chip. This is a brief guide on how to do that.
+Unlike other Arduino boards, the Controllino PLCs are usually not able to be recognized as a keyboard. Because of that we have to flash a custom bootloader onto the ATmega16u2 chip. This is a brief guide on how to achieve that. If you run into problems, here is a more detailed description of this progress: https://mitchtech.net/arduino-usb-hid-keyboard/
 
 **Build and Upload firmware**
 - Plug in the Controllino PLC.
