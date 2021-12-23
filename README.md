@@ -58,3 +58,5 @@ Disconnect and reconnect the Controllino PLC.
 ## Wiring
 
 A full wiring guide is located in the "Schematics" folder.
+
+<img src="https://github.com/WaypointNetworkAG/keyboard-emulator/blob/main/images/schematic.png">
