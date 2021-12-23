@@ -41,6 +41,8 @@ Unlike other Arduino boards, the Controllino PLCs are usually not able to be rec
 - Remove the white plastic cover from the Controllino.
 - Briefly bridge the reset and ground pins from the ICSP header of the ATmega16u2 chip. These pins are located as shown below:
 
+![ATmega16u2 reset](images/ATmega16u2_reset_scaled.png)
+
 **Flash the new bootloader**
 
 The boatloader files are located in the "ATmega16u2 firmware" folder.
