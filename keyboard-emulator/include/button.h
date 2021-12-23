@@ -22,7 +22,7 @@ class Button
         KEY key;
 
         bool _pressed;
-        bool g_status_flag;
+        bool* g_status_flag;
 };
 
 

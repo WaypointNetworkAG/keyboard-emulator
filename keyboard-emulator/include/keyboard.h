@@ -20,9 +20,7 @@ class Keyboard
     private:
         void _releaseKey();
 
-        uint8_t _buf[8] = {
-            0
-        };   /* Keyboard report buffer */
+        uint8_t _buf[8] = { 0 };
 };
 
 #endif // KEYBOARD_EMULATOR_KEYBOARD_
