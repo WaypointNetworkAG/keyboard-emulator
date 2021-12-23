@@ -16,12 +16,14 @@ Button::Button(std::shared_ptr<Keyboard>& keyboard, bool& g_status_flag, PORT po
 
 void Button::update()
 {
-    if (digitalRead(this->port) == HIGH && this->g_status_flag)
+    int status = digitalRead(this->port);
+
+    if (status == HIGH && this->g_status_flag)
     {
         keyboard->pressKey(this->key);
         this->g_status_flag = false;
         this->_pressed = false;
-    } else if (digitalRead(this->port) == LOW && !this->_pressed)
+    } else if (status == LOW && !this->_pressed)
     {
         this->g_status_flag = true;
         this->_pressed = true;
