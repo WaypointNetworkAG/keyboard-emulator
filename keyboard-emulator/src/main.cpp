@@ -2,8 +2,9 @@
  * Desc: Controllino code main file
  */
 
-#include "Controllino.h"
+#include <Controllino.h>
 #include "button.h"
+#include "keyboard.h"
 
 bool g_status_flag = true;
 
