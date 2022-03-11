@@ -7,19 +7,24 @@
 
 #include "keyboard.h"
 
-typedef int PORT;
-
 class Button
 {
     public:
-        Button(std::shared_ptr<Keyboard>& keyboard, bool& g_status_flag, PORT port, KEY key);
+        Button(std::shared_ptr<Keyboard> &keyboard, bool &g_status_flag, int port, int key);
+        Button(std::shared_ptr<Keyboard> &keyboard, bool &g_status_flag, int port, int *keys, int length);
         void update();
 
     private:
         std::shared_ptr<Keyboard> keyboard;
 
-        PORT port;
-        KEY key;
+        void _sendCommand();
+
+        int port;
+        int *keys;
+
+        int _key_idx = 0;
+        int _key_length;
+        bool _multi_key;
 
         bool _pressed;
         bool* g_status_flag;

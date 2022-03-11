@@ -19,7 +19,10 @@ void setup() {
     button1 = new Button(keyboard, g_status_flag, CONTROLLINO_A0, KEY_1);
     button2 = new Button(keyboard, g_status_flag, CONTROLLINO_A1, KEY_2);
     button3 = new Button(keyboard, g_status_flag, CONTROLLINO_A2, KEY_3);
-    button4 = new Button(keyboard, g_status_flag, CONTROLLINO_A3, KEY_4);
+
+    int keys[4] = {KEY_4, KEY_5, KEY_6, KEY_7};
+    button4 = new Button(keyboard, g_status_flag, CONTROLLINO_A3, keys, sizeof(keys));
+    
     button_shutdown = new Button(keyboard, g_status_flag, CONTROLLINO_IN0, KEY_NUM_0);
 }
 

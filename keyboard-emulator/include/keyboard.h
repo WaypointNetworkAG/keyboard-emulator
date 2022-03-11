@@ -9,13 +9,11 @@
 #include <ArxSmartPtr.h>
 #include "hid_keys.h"
 
-typedef int KEY;
-
 class Keyboard
 {
     public:
         Keyboard();
-        void pressKey(KEY key);
+        void pressKey(int key);
 
     private:
         void _releaseKey();
