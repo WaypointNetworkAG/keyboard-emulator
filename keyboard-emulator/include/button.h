@@ -11,7 +11,7 @@ class Button
 {
     public:
         Button(std::shared_ptr<Keyboard> &keyboard, bool &g_status_flag, int port, int key);
-        Button(std::shared_ptr<Keyboard> &keyboard, bool &g_status_flag, int port, int *keys, int length);
+        Button(std::shared_ptr<Keyboard> &keyboard, bool &g_status_flag, int port, int key1, int key2, int key3, int key4);
         void update();
 
     private:
@@ -20,10 +20,14 @@ class Button
         void _sendCommand();
 
         int port;
-        int *keys;
+        
+        int key1;
+        int key2;
+        int key3;
+        int key4;
 
         int _key_idx = 0;
-        int _key_length;
+        int _key_length = 4;
         bool _multi_key;
 
         bool _pressed;
